@@ -1,0 +1,28 @@
+<?php
+    $primer = $_POST['primernumero'];
+    $segundo = $_POST['segundonumero'];
+    $tercer = $_POST['tercernumero'];
+
+    $promedio = ($primer+$segundo+$tercer)/3;
+        if($promedio >=13){
+        echo "APROBADO CON PROMEDIO DE: ".$promedio;
+    }
+    else{
+        echo "REPROBADO CON PROMEDIO DE: ".$promedio;
+    }
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+<form action="ejercicio4.html" method="post">
+    <button type="submit" class="btn btn-primary">Regresar</button>
+    </form>
+</body>
+</html>
