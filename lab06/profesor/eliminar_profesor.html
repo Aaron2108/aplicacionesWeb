@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluir la hoja de estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Eliminar Profesor</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Eliminar Profesor</h1>
+        <form name="formProfesor" method="post" action="eliminar_profesor.php" class="mt-5">
+            <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Id del Profesor:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="id" name="id" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Eliminar</button>
+                    <a href="http://localhost/lab06/index.html" class="btn btn-secondary">Regresar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Incluir los archivos de JavaScript necesarios para Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

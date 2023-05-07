@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregar CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Eliminar Curso</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Eliminar Curso</h1>
+        <form name="formProfesor" method="post" action="eliminar_curso.php">
+            <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Id del curso</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="id" name="id" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-danger mr-2">Eliminar</button>
+                    <a href="http://localhost/lab06/index.html" class="btn btn-secondary">Regresar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Agregar JS de Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

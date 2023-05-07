@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Matricula</title>
+    <!-- Agrega los enlaces de Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Editar Matricula</h1>
+        <form name="formProfesor" method="post" action="editar_matricula.php">
+            <div class="mb-3">
+                <label for="idmatricula" class="form-label">Id de la matricula</label>
+                <input type="text" class="form-control" name="idmatricula" required>
+            </div>
+            <div class="mb-3">
+                <label for="codigo" class="form-label">Codigo</label>
+                <input type="text" class="form-control" name="codigo" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="http://localhost/lab06/index.html" class="btn btn-secondary">Regresar</a>
+        </form>
+    </div>
+    <!-- Agrega los enlaces de Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
